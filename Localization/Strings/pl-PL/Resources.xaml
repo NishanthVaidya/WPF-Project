@@ -1,0 +1,187 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <system:String x:Key="NotAvailable">(brak)</system:String>
+    <system:String x:Key="Yes">TAK</system:String>
+    <system:String x:Key="No">NIE</system:String>
+    <system:String x:Key="Apt">m.</system:String>
+
+    <!-- MainWindowView.xaml -->
+    <system:String x:Key="AddClient">Dodaj klienta</system:String>
+    <system:String x:Key="EditClient">Edytuj klienta</system:String>
+    <system:String x:Key="RemoveClient">Usuń klienta</system:String>
+    <system:String x:Key="Lending">Wypożyczenie</system:String>
+    <system:String x:Key="Return">Zwrot</system:String>
+    <system:String x:Key="EditLending">Edytuj wypożyczenie</system:String>
+    <system:String x:Key="RemoveLending">Usuń wypożyczenie</system:String>
+
+    <system:String x:Key="FirstName">Imię</system:String>
+    <system:String x:Key="LastName">Nazwisko</system:String>
+    <system:String x:Key="ClientNumber">Nr klienta</system:String>
+    <system:String x:Key="PhoneNumber">Telefon</system:String>
+    <system:String x:Key="Email">E-mail</system:String>
+
+    <system:String x:Key="Employee">Pracownik</system:String>
+    <system:String x:Key="LendDate">Data wypożyczenia</system:String>
+    <system:String x:Key="ReturnDate">Data zwrotu</system:String>
+    <system:String x:Key="DueDate">Termin zwrotu</system:String>
+
+    <system:String x:Key="ClientDetails">Szczegóły klienta</system:String>
+    <system:String x:Key="IdNumber">Numer dowodu:</system:String>
+    <system:String x:Key="ClientAddress">Adres klienta:</system:String>
+    <system:String x:Key="AdditionalInfo">Dodatkowe informacje:</system:String>
+
+    <system:String x:Key="SearchClient">Wyszukaj klienta:</system:String>
+    <system:String x:Key="SearchBook">Wyszukaj książkę:</system:String>
+
+    <system:String x:Key="Refresh">Odswież bazę</system:String>
+    <system:String x:Key="Books">Książki</system:String>
+    <system:String x:Key="Users">Użytkownicy</system:String>
+    <system:String x:Key="Delays">Spóźnienia</system:String>
+    <system:String x:Key="Settings">Ustawienia</system:String>
+
+    <!-- LoginView.xaml -->
+    <system:String x:Key="SignIn">Logowanie</system:String>
+    <system:String x:Key="LogIn">Zaloguj</system:String>
+    <system:String x:Key="UsernameColon">Użytkownik:</system:String>
+    <system:String x:Key="PasswordColon">Hasło:</system:String>
+    <system:String x:Key="ServerAddressColon">Adres serwera:</system:String>
+    <system:String x:Key="DatabaseNameColon">Nazwa bazy:</system:String>
+    <system:String x:Key="RememberPassword">Zapamiętaj hasło</system:String>
+    <system:String x:Key="WindowsAuthentication">Uwierzytelnianie Windows</system:String>
+    <system:String x:Key="Database">Baza danych</system:String>
+    <system:String x:Key="NeedAccount">Potrzebujesz konta?</system:String>
+    <system:String x:Key="Account">Konto</system:String>
+    <system:String x:Key="Connecting">Trwa łączenie, proszę czekać...</system:String>
+    <system:String x:Key="CouldntLogIn">Wystąpił błąd, zweryfikuj swoje dane logowania oraz ustawienia bazy danych i spróbuj ponownie.</system:String>
+    <system:String x:Key="NeedAccountDialog" xml:space="preserve">W przypadku nowej bazy danych podane hasło i login zostaną wykorzystane do utworzenia pierwszego konta. 
+        
+Jeżeli w bazie danych są już użytkownicy, poproś administratora o utworzenie konta dla Ciebie.</system:String>
+    <system:String x:Key="FirstLogIn" xml:space="preserve">Jest to pierwsze logowanie, wprowadzone dane posłużą do utworzenia konta administratora. 
+        
+Upewnij się, że wprowadzone hasło i login są poprawne! 
+Czy na pewno chcesz kontynuować?</system:String>
+    <system:String x:Key="FirstLogInCaption">Pierwsze logowanie</system:String>
+    <system:String x:Key="FillDatabaseSettings" xml:space="preserve">Wprowadź ustawienia bazy danych (adres serwera oraz nazwę bazy).
+        
+Jeżeli nie wybrałeś "Uwierzytelnianie Windows", to musisz podać użytkownika i hasło.</system:String>
+
+    <!-- UsersListView.xaml -->
+    <system:String x:Key="AddUser">Dodaj użytkownika</system:String>
+    <system:String x:Key="EditUser">Edytuj użytkownika</system:String>
+    <system:String x:Key="RemoveUser">Usuń użytkownika</system:String>
+    <system:String x:Key="Username">Nazwa użytkownika</system:String>
+    <system:String x:Key="Role">Rola</system:String>
+    <system:String x:Key="Close">Zamknij</system:String>
+    <system:Double x:Key="CloseWidth">90</system:Double>
+
+    <!-- UserDetailsView.xaml -->
+    <system:String x:Key="UserDetails">Szczegóły użytkownika</system:String>
+    <system:String x:Key="AccountDetailsColon">Dane konta:</system:String>
+    <system:String x:Key="RoleColon">Rola:</system:String>
+    <system:String x:Key="Administrator">Administrator</system:String>
+    
+    <system:String x:Key="PersonalDetailsColon">Dane osobowe:</system:String>
+    <system:String x:Key="FirstNameColon">Imię:</system:String>
+    <system:String x:Key="LastNameColon">Nazwisko:</system:String>
+    <system:String x:Key="IdNumberColon">Nr dowodu:</system:String>
+    <system:String x:Key="PhoneColon">Telefon:</system:String>
+    <system:String x:Key="EmailColon">E-mail:</system:String>
+    
+    <system:String x:Key="AddressColon">Dane adresowe:</system:String>
+    <system:String x:Key="StreetColon">Ulica:</system:String>
+    <system:String x:Key="HouseNumberColon">Nr budynku:</system:String>
+    <system:String x:Key="ApartmentNumberColon">Nr mieszkania:</system:String>
+    <system:String x:Key="PostalCodeColon">Kod pocztowy:</system:String>
+    <system:String x:Key="CityColon">Miasto:</system:String>
+    
+    <system:String x:Key="Save">Zapisz</system:String>
+    <system:String x:Key="Cancel">Anuluj</system:String>
+
+    <!-- LendingDetailsView.xaml -->
+    <system:String x:Key="LendDateColon">Data wypożyczenia:</system:String>
+    <system:String x:Key="DueDateColon">Termin zwrotu:</system:String>
+    <system:String x:Key="ReturnDateColon">Data zwrotu:</system:String>
+    <system:String x:Key="AddBook">Dodaj książkę</system:String>
+    <system:String x:Key="RemoveBook">Usuń książkę</system:String>
+    <system:String x:Key="Title">Tytuł</system:String>
+    <system:String x:Key="Location">Lokalizacja</system:String>
+    <system:String x:Key="EditSelectedItem">Edycja zaznaczonej pozycji:</system:String>
+    <system:String x:Key="DueDateForAll">Czy ustawić ten termin zwrotu dla wszystkich książek?</system:String>
+
+    <!-- ClientDetailsView.xaml -->
+    <system:String x:Key="ClientNumberColon">Nr klienta:</system:String>
+    <system:String x:Key="AdditionalInfoColon">Dodatkowe inf.:</system:String>
+
+    <!-- BooksReturnView.xaml -->
+    <system:String x:Key="SelectBooksToReturnColon">Zaznacz książki do zwrotu:</system:String>
+    <system:String x:Key="SelectDeselectAll">Zazn./Odzn. wszystko</system:String>
+    <system:String x:Key="Returned">Zwrócono</system:String>
+
+    <!-- BooksListView.xaml -->
+    <system:String x:Key="EditBook">Edytuj książkę</system:String>
+    <system:String x:Key="Publisher">Wydawca</system:String>
+    <system:String x:Key="PublishDate">Data wydania</system:String>
+    <system:String x:Key="Quantity">Ilość</system:String>
+    <system:String x:Key="Author">Autor</system:String>
+    <system:String x:Key="HardCover">Twarda okładka</system:String>
+    <system:String x:Key="Category">Kategoria</system:String>
+    <system:String x:Key="Available">Dostępna</system:String>
+    <system:String x:Key="ISBN">ISBN</system:String>
+
+    <!-- BookDetailsView.xaml -->
+    <system:String x:Key="BookDetails">Szczegóły książki</system:String>
+    <system:String x:Key="TitleColon">Tytuł:</system:String>
+    <system:String x:Key="PublishDateColon">Publish date:</system:String>
+    <system:String x:Key="QuantityColon">Ilość:</system:String>
+    <system:String x:Key="AuthorsColon">Autorzy:</system:String>
+    <system:String x:Key="HardCoverColon">Twarda okładka:</system:String>
+    <system:String x:Key="CategoriesColon">Kategorie:</system:String>
+    <system:String x:Key="PublisherColon">Wydawca:</system:String>
+    <system:String x:Key="LocationColon">Lokalizacja:</system:String>
+    <system:String x:Key="AddAuthorColon">Dodaj autora:</system:String>
+    <system:String x:Key="AddCategoryColon">Dodaj kategorię:</system:String>
+    <system:String x:Key="ISBNColon">ISBN:</system:String>
+
+    <!-- UsersListViewModel.cs -->
+    <system:String x:Key="Error">Błąd</system:String>
+    <system:String x:Key="CantRemoveYourself">Nie można usunąć samego siebie.</system:String>
+    <system:String x:Key="Removing">Usuwanie</system:String>
+    <system:String x:Key="AreYouSureRemoveUser">Czy jesteś pewien, że chcesz usunąć z bazy użytkownika "{0}"?</system:String>
+
+    <!-- UserDetailsViewModel.cs -->
+    <system:String x:Key="UsernameIsTaken">Użytkownik o podanej nazwie istnieje już w systemie. Wybierz inną nazwę użytkownika.</system:String>
+    <system:String x:Key="UsernameIsTakenCaption">Nazwa zajęta</system:String>
+    <system:String x:Key="CantRemoveAdminYourself">Nie możesz sam sobie odebrać uprawnień administracyjnych.</system:String>
+    <system:String x:Key="FirstNameLastNameRequired">Imię i nazwisko jest wymagane.</system:String>
+    <system:String x:Key="UsernameIsRequired">Nazwa użytkownika jest wymagana.</system:String>
+    <system:String x:Key="PasswordIsRequired">Hasło jest wymagane.</system:String>
+    <system:String x:Key="FillStreetAndCity">Jeżeli podajesz adres, to należ uzupełnić minimum ulicę i miasto.</system:String>
+    <system:String x:Key="FillRequiredFields">Wypełnij wymagane pola</system:String>
+
+    <!-- MainWindowViewModel.cs -->
+    <system:String x:Key="AreYouSureRemoveClientAndHistory">Czy jesteś pewien, że chcesz usunąć z bazy klienta "{0}" i całą jego historię wypożyczeń?</system:String>
+    <system:String x:Key="AreYouSureRemoveSelectedLending">Czy jesteś pewien, że chcesz usunąć zaznaczone wypożyczenie?</system:String>
+
+    <!-- LoginViewModel.cs -->
+    <system:String x:Key="FillUsernameAndPassword">Podaj nazwę użytkownika oraz hasło.</system:String>
+    <system:String x:Key="UserNotFoundPasswordWrong">Podany użytkownik nie został znaleziony lub hasło jest nieprawidłowe.</system:String>
+
+    <!-- LendingDetailsViewModel.cs -->
+    <system:String x:Key="BooksAreRequired">Dodaj przynajmniej jedną książkę, aby móc zapisać wypożyczenie.</system:String>
+    <system:String x:Key="BookAlreadyAdded">Książka "{0}" została już dodana.</system:String>
+
+    <!-- BooksListViewModel.cs -->
+    <system:String x:Key="AreYouSureRemoveBook">Czy jesteś pewien, że chcesz usunąć z bazy książkę "{0}"?</system:String>
+
+    <!-- BookDetailsViewModel.cs -->
+    <system:String x:Key="AreYouSureAddPublisher">Czy jesteś pewien, że chcesz dodać wydawcę "{0}"?</system:String>
+    <system:String x:Key="NewPublisher">Nowy wydawca</system:String>
+    <system:String x:Key="AreYouSureAddCategory">Czy jesteś pewien, że chcesz dodać kategorię "{0}"?</system:String>
+    <system:String x:Key="NewCategory">Nowa kategoria</system:String>
+    <system:String x:Key="AreYouSureAddAuthor">Czy jesteś pewien, że chcesz dodać autora "{0}"?</system:String>
+    <system:String x:Key="NewAuthor">Nowy autor</system:String>
+    <system:String x:Key="TitleIsRequired">Tytuł jest wymagany.</system:String>
+
+</ResourceDictionary>

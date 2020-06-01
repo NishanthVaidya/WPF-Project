@@ -1,0 +1,187 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="NotAvailable">(n/a)</system:String>
+    <system:String x:Key="Yes">YES</system:String>
+    <system:String x:Key="No">NO</system:String>
+    <system:String x:Key="Apt">apt.</system:String>
+
+    <!-- MainWindowView.xaml -->
+    <system:String x:Key="AddClient">Add client</system:String>
+    <system:String x:Key="EditClient">Edit client</system:String>
+    <system:String x:Key="RemoveClient">Remove client</system:String>
+    <system:String x:Key="Lending">Lending</system:String>
+    <system:String x:Key="Return">Return</system:String>
+    <system:String x:Key="EditLending">Edit lending</system:String>
+    <system:String x:Key="RemoveLending">Remove lending</system:String>
+
+    <system:String x:Key="FirstName">First name</system:String>
+    <system:String x:Key="LastName">Last name</system:String>
+    <system:String x:Key="ClientNumber">Client no.</system:String>
+    <system:String x:Key="PhoneNumber">Phone</system:String>
+    <system:String x:Key="Email">E-mail</system:String>
+    
+    <system:String x:Key="Employee">Employee</system:String>
+    <system:String x:Key="LendDate">Lend date</system:String>
+    <system:String x:Key="ReturnDate">Return date</system:String>
+    <system:String x:Key="DueDate">Due date</system:String>
+
+    <system:String x:Key="ClientDetails">Client details</system:String>
+    <system:String x:Key="IdNumber">Id number:</system:String>
+    <system:String x:Key="ClientAddress">Client address:</system:String>
+    <system:String x:Key="AdditionalInfo">Additional info:</system:String>
+
+    <system:String x:Key="SearchClient">Search client:</system:String>
+    <system:String x:Key="SearchBook">Search book:</system:String>
+
+    <system:String x:Key="Refresh">Refresh</system:String>
+    <system:String x:Key="Books">Books</system:String>
+    <system:String x:Key="Users">Users</system:String>
+    <system:String x:Key="Delays">Delays</system:String>
+    <system:String x:Key="Settings">Settings</system:String>
+    
+    <!-- LoginView.xaml -->
+    <system:String x:Key="SignIn">Sign in</system:String>
+    <system:String x:Key="LogIn">Log in</system:String>
+    <system:String x:Key="UsernameColon">Username:</system:String>
+    <system:String x:Key="PasswordColon">Password:</system:String>
+    <system:String x:Key="ServerAddressColon">Server address:</system:String>
+    <system:String x:Key="DatabaseNameColon">Database name:</system:String>
+    <system:String x:Key="RememberPassword">Remember password</system:String>
+    <system:String x:Key="WindowsAuthentication">Windows Authentication</system:String>
+    <system:String x:Key="Database">Database</system:String>
+    <system:String x:Key="Connecting">Connecting, please wait...</system:String>
+    <system:String x:Key="CouldntLogIn">Error occurred, please verify your credentials and database settings and try again.</system:String>
+    <system:String x:Key="FirstLogIn" xml:space="preserve">This is the first log in, filled credentials will be used to create an administrator account.        
+
+Make sure, that your password and username are correct! 
+Do you really want to continue?</system:String>
+    <system:String x:Key="FirstLogInCaption">First log in</system:String>
+    <system:String x:Key="NeedAccount">Need an account?</system:String>
+    <system:String x:Key="Account">Account</system:String>
+    <system:String x:Key="NeedAccountDialog" xml:space="preserve">In case of a new database, filled credentials will be used to create an account. 
+        
+If there are already users in database, ask your administrator to create an account for you.</system:String>
+    <system:String x:Key="FillDatabaseSettings" xml:space="preserve">Fill required database settings (i.e. server address and database name). 
+
+If you don't check "Windows Authentication", you have to enter username and password.</system:String>
+
+    <!-- UsersListView.xaml -->
+    <system:String x:Key="AddUser">Add user</system:String>
+    <system:String x:Key="EditUser">Edit user</system:String>
+    <system:String x:Key="RemoveUser">Remove user</system:String>
+    <system:String x:Key="Username">Username</system:String>
+    <system:String x:Key="Role">Role</system:String>
+    <system:String x:Key="Close">Close</system:String>
+    <system:Double x:Key="CloseWidth">73</system:Double>
+
+    <!-- UserDetailsView.xaml -->
+    <system:String x:Key="UserDetails">User details</system:String>
+    <system:String x:Key="AccountDetailsColon">Account details:</system:String>
+    <system:String x:Key="RoleColon">Role:</system:String>
+    <system:String x:Key="Administrator">Administrator</system:String>
+    
+    <system:String x:Key="PersonalDetailsColon">Personal details:</system:String>
+    <system:String x:Key="FirstNameColon">First name:</system:String>
+    <system:String x:Key="LastNameColon">Last name:</system:String>
+    <system:String x:Key="IdNumberColon">Id number:</system:String>
+    <system:String x:Key="PhoneColon">Phone:</system:String>
+    <system:String x:Key="EmailColon">E-mail:</system:String>
+    
+    <system:String x:Key="AddressColon">Address:</system:String>
+    <system:String x:Key="StreetColon">Street:</system:String>
+    <system:String x:Key="HouseNumberColon">House no.:</system:String>
+    <system:String x:Key="ApartmentNumberColon">Apartment no.:</system:String>
+    <system:String x:Key="PostalCodeColon">Postal code:</system:String>
+    <system:String x:Key="CityColon">City:</system:String>
+    
+    <system:String x:Key="Save">Save</system:String>
+    <system:String x:Key="Cancel">Cancel</system:String>
+
+    <!-- LendingDetailsView.xaml -->
+    <system:String x:Key="LendDateColon">Lend date:</system:String>
+    <system:String x:Key="DueDateColon">Due date:</system:String>
+    <system:String x:Key="ReturnDateColon">Return date:</system:String>
+    <system:String x:Key="AddBook">Add book</system:String>
+    <system:String x:Key="RemoveBook">Remove book</system:String>
+    <system:String x:Key="Title">Title</system:String>
+    <system:String x:Key="Location">Location</system:String>
+    <system:String x:Key="EditSelectedItem">Edit selected item:</system:String>
+    <system:String x:Key="DueDateForAll">Do you want to set this due date for all books?</system:String>
+
+    <!-- ClientDetailsView.xaml -->
+    <system:String x:Key="ClientNumberColon">Client no.:</system:String>
+    <system:String x:Key="AdditionalInfoColon">Additional info:</system:String>
+
+    <!-- BooksReturnView.xaml -->
+    <system:String x:Key="SelectBooksToReturnColon">Select books to return:</system:String>
+    <system:String x:Key="SelectDeselectAll">Select/Deselect all</system:String>
+    <system:String x:Key="Returned">Returned</system:String>
+
+    <!-- BooksListView.xaml -->
+    <system:String x:Key="EditBook">Edit book</system:String>
+    <system:String x:Key="Publisher">Publisher</system:String>
+    <system:String x:Key="PublishDate">Publish date</system:String>
+    <system:String x:Key="Quantity">Quantity</system:String>
+    <system:String x:Key="Author">Author</system:String>
+    <system:String x:Key="HardCover">Hard cover</system:String>
+    <system:String x:Key="Category">Category</system:String>
+    <system:String x:Key="Available">Available</system:String>
+    <system:String x:Key="ISBN">ISBN</system:String>
+
+    <!-- BookDetailsView.xaml -->
+    <system:String x:Key="BookDetails">Book details</system:String>
+    <system:String x:Key="TitleColon">Title:</system:String>
+    <system:String x:Key="PublishDateColon">Publish date:</system:String>
+    <system:String x:Key="QuantityColon">Quantity:</system:String>
+    <system:String x:Key="AuthorsColon">Authors:</system:String>
+    <system:String x:Key="HardCoverColon">Hard cover:</system:String>
+    <system:String x:Key="CategoriesColon">Categories:</system:String>
+    <system:String x:Key="PublisherColon">Publisher:</system:String>
+    <system:String x:Key="LocationColon">Location:</system:String>
+    <system:String x:Key="AddAuthorColon">Add author:</system:String>
+    <system:String x:Key="AddCategoryColon">Add category:</system:String>
+    <system:String x:Key="ISBNColon">ISBN:</system:String>
+
+    <!-- UsersListViewModel.cs -->
+    <system:String x:Key="Error">Error</system:String>
+    <system:String x:Key="CantRemoveYourself">You cannot remove yourself.</system:String>
+    <system:String x:Key="Removing">Removing</system:String>
+    <system:String x:Key="AreYouSureRemoveUser">Do you really want to remove user "{0}"?</system:String>
+    
+    <!-- UserDetailsViewModel.cs -->
+    <system:String x:Key="UsernameIsTaken">This username is taken. Please choose another.</system:String>
+    <system:String x:Key="UsernameIsTakenCaption">Username is taken</system:String>
+    <system:String x:Key="CantRemoveAdminYourself">You cannot remove your administrator role yourself.</system:String>
+    <system:String x:Key="FirstNameLastNameRequired">First name and last name is required.</system:String>
+    <system:String x:Key="UsernameIsRequired">Username is required.</system:String>
+    <system:String x:Key="PasswordIsRequired">Password is required.</system:String>
+    <system:String x:Key="FillStreetAndCity">If you fill address, you have to fill at least street and city.</system:String>
+    <system:String x:Key="FillRequiredFields">Fill required fields</system:String>
+
+    <!-- MainWindowViewModel.cs -->
+    <system:String x:Key="AreYouSureRemoveClientAndHistory">Do you really want to remove client "{0}" and his whole history?</system:String>
+    <system:String x:Key="AreYouSureRemoveSelectedLending">Do you really want to remove the selected lending?</system:String>
+    
+    <!-- LoginViewModel.cs -->
+    <system:String x:Key="FillUsernameAndPassword">Fill username and password.</system:String>
+    <system:String x:Key="UserNotFoundPasswordWrong">User not found or password is wrong.</system:String>
+
+    <!-- LendingDetailsViewModel.cs -->
+    <system:String x:Key="BooksAreRequired">You have to add at least one book to save the lending.</system:String>
+    <system:String x:Key="BookAlreadyAdded">Book "{0}" has been already added.</system:String>
+
+    <!-- BooksListViewModel.cs -->
+    <system:String x:Key="AreYouSureRemoveBook">Do you really want to remove book "{0}"?</system:String>
+
+    <!-- BookDetailsViewModel.cs -->
+    <system:String x:Key="AreYouSureAddPublisher">Are you sure you want to add publisher "{0}"?</system:String>
+    <system:String x:Key="NewPublisher">New publisher</system:String>
+    <system:String x:Key="AreYouSureAddCategory">Are you sure you want to add category "{0}"?</system:String>
+    <system:String x:Key="NewCategory">New category</system:String>
+    <system:String x:Key="AreYouSureAddAuthor">Are you sure you want to add author "{0}"?</system:String>
+    <system:String x:Key="NewAuthor">New author</system:String>
+    <system:String x:Key="TitleIsRequired">Title is required.</system:String>
+
+</ResourceDictionary>
